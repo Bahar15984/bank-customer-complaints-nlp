@@ -65,9 +65,11 @@ After downloading:
 
 ##  Results
 - **Best Model:** XGBoost Classifier
-- **Macro F1-score:** `XX.XX%`
-- **Accuracy:** `XX.XX%`
-- Model performance improved significantly after text preprocessing and feature extraction with **TF-IDF**.
+- **Macro F1-score:** `0.74`
+- **Accuracy:** `0.90`
+- Model correctly predicts ~90% of cases overall.  
+- Performance is strong across most categories, with the highest F1-score for **Mortgage (0.95)** and **Credit Reporting (0.98)**.  
+- Lower performance in categories with fewer samples (e.g., Other financial service, Payday loan).
 
 ---
 
