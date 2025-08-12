@@ -27,6 +27,20 @@ This automation can help **financial institutions** and **regulatory agencies**:
 - `consumer_complaint_narrative` → Text of the complaint (main input)
 - `product` → Target label (e.g., Mortgage, Credit Card, Student Loan)
 
+## Dataset Access
+The dataset used in this project is publicly available from the **Consumer Financial Protection Bureau (CFPB)** Consumer Complaint Database.
+
+You can download it here:  
+ [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+After downloading:
+1. Save the file as `consumer_complaints.csv` in the project folder.
+2. Run the Jupyter Notebook to reproduce the results.
+
+**Features:**
+- `consumer_complaint_narrative` → Text of the complaint (main input)
+- `product` → Target label (e.g., Mortgage, Credit Card, Student Loan)
+
 ---
 
 ##  Methodology
